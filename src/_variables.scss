@@ -5,7 +5,7 @@ $version: "0.5.8";
 $rtl: false !default;
 
 // Core colors
-$primary-color: #5755d9 !default;
+$primary-color: #0099E5 !default;
 $primary-color-dark: darken($primary-color, 3%) !default;
 $primary-color-light: lighten($primary-color, 3%) !default;
 $secondary-color: lighten($primary-color, 37.5%) !default;
@@ -13,7 +13,7 @@ $secondary-color-dark: darken($secondary-color, 3%) !default;
 $secondary-color-light: lighten($secondary-color, 3%) !default;
 
 // Gray colors
-$dark-color: #303742 !default;
+$dark-color: #525f7f !default;
 $light-color: #fff !default;
 $gray-color: lighten($dark-color, 55%) !default;
 $gray-color-dark: darken($gray-color, 30%) !default;
@@ -27,29 +27,30 @@ $bg-color-dark: darken($bg-color, 3%) !default;
 $bg-color-light: $light-color !default;
 
 // Control colors
-$success-color: #32b643 !default;
-$warning-color: #ffb700 !default;
-$error-color: #e85600 !default;
+$success-color: #3ECF8E !default;
+$warning-color: #FFB848 !default;
+$error-color: #FF6886 !default;
 
 // Other colors
-$code-color: #d73e48 !default;
-$highlight-color: #ffe9b3 !default;
-$body-bg: $bg-color-light !default;
-$body-font-color: lighten($dark-color, 5%) !default;
+$code-color: #FF6886 !default;
+$highlight-color: #FFB848 !default;
+$body-bg: #2f384e !default;
+$body-font-color: #525f7f !default;
 $link-color: $primary-color !default;
 $link-color-dark: darken($link-color, 10%) !default;
 $link-color-light: lighten($link-color, 10%) !default;
 
 // Fonts
 // Credit: https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/
-$base-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto !default;
-$mono-font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier, monospace !default;
-$fallback-font-family: "Helvetica Neue", sans-serif !default;
-$cjk-zh-hans-font-family: $base-font-family, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", $fallback-font-family !default;
-$cjk-zh-hant-font-family: $base-font-family, "PingFang TC", "Hiragino Sans CNS", "Microsoft JhengHei", $fallback-font-family !default;
-$cjk-jp-font-family: $base-font-family, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "Yu Gothic", YuGothic, Meiryo, $fallback-font-family !default;
-$cjk-ko-font-family: $base-font-family, "Malgun Gothic", $fallback-font-family !default;
-$body-font-family: $base-font-family, $fallback-font-family !default;
+$base-font-family: 'Lato', sans-serif; // 600
+$header-font-family: 'Open Sans', sans-serif; // 400, 700
+$mono-font-family: $base-font-family !default;
+$fallback-font-family: $base-font-family !default;
+$cjk-zh-hans-font-family: $base-font-family !default;
+$cjk-zh-hant-font-family: $base-font-family !default;
+$cjk-jp-font-family: $base-font-family !default;
+$cjk-ko-font-family: $base-font-family !default;
+$body-font-family: $base-font-family !default;
 
 // Unit sizes
 $unit-o: .05rem !default;
@@ -68,18 +69,18 @@ $unit-12: 2.4rem !default;
 $unit-16: 3.2rem !default;
 
 // Font sizes
-$html-font-size: 20px !default;
-$html-line-height: 1.5 !default;
-$font-size: .8rem !default;
-$font-size-sm: .7rem !default;
-$font-size-lg: .9rem !default;
-$line-height: 1.2rem !default;
+$html-font-size: 14px !default;
+$html-line-height: 18px !default;
+$line-height: 1.125rem !default;
+$font-size: 0.875rem !default;
+$font-size-sm: 0.75rem !default;
+$font-size-lg: 0.875rem !default;
 
 // Sizes
 $layout-spacing: $unit-2 !default;
 $layout-spacing-sm: $unit-1 !default;
-$layout-spacing-lg: $unit-4 !default;
-$border-radius: $unit-h !default;
+$layout-spacing-lg: 16px !default;
+$border-radius: 4px !default;
 $border-width: $unit-o !default;
 $border-width-lg: $unit-h !default;
 $control-size: $unit-9 !default;
